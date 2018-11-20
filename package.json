@@ -1,0 +1,16 @@
+{
+  "name": "zadanie",
+  "version": "1.0.0",
+  "description": "1",
+  "main": "zadanie.js",
+  "scripts": {
+    "test": "cosnole.log(\"Tets\")"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jade": "^1.11.0"
+  }
+}
