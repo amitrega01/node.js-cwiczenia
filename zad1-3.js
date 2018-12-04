@@ -13,11 +13,14 @@ function fun() {
 			console.log(tab[counter]);
 			counter++;
 		} else {
+			clearTimeout(int); 
 			time = setTimeout(pozniej,2000);
+			
 		}
 	} else counter= 0;
 }
 function pozniej() {
-	console.log(tab[counter]);
+	console.log(tab[counter]  + ' - samogloska');
 	counter++;
+	int=setInterval(fun,500);
 }
